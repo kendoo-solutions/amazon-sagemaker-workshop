@@ -108,7 +108,7 @@ To begin, follow these steps:
 2. In your notebook instance, click the **New** button on the right and select **Folder**.  
 3. Click the checkbox next to your new folder, click the **Rename** button above in the menu bar, and give the folder a name such as 'video-game-sales'.
 4. Click the folder to enter it.
-5. To upload the notebook, click the **Upload** button on the right, then in the file selection popup, select the file 'video-game-sales.ipynb' from the folder on your computer where you downloaded this GitHub repository. Then click the blue **Upload** button that appears in the notebook next to the file name.
+5. To upload the notebook, click the **Upload** button on the right, then in the file selection popup, select the file 'Modules/2 - Video Game Sales Notebook/video-game-sales-xgboost.ipynb' from the folder on your computer where you downloaded this GitHub repository. Then click the blue **Upload** button that appears in the notebook next to the file name.
 6. You are now ready to begin the notebook:  click the notebook's file name to open it.
 7. In the ```bucket = '<your_s3_bucket_name_here>'``` code line, paste the name of the S3 bucket you created in Module 1 to replace ```<your_s3_bucket_name_here>```.  The code line should now read similar to ```bucket = 'smworkshop-john-smith'```.  Do NOT paste the entire path (s3://.......), just the bucket name.  
 
@@ -129,7 +129,8 @@ In this module we will be using images of handwritten digits from the [MNIST Dat
 1. In your notebook instance, click the **New** button on the right and select **Folder**.
 2. Click the checkbox next to your new folder, click the **Rename** button above in the menu bar, and give the folder a name such as 'tensorflow-distributed'.
 3. Click the folder to enter it.
-4. To upload the notebook, click the **Upload** button on the right, then in the file selection popup, select the file 'TensorFlow_Distributed_MNIST.ipynb' from the folder on your computer where you downloaded this GitHub repository. Then click the blue **Upload** button that appears in the notebook next to the file name.
+4. To upload the notebook, click the **Upload** button on the right, then in the file selection popup, select all files in 'Modules/3 -  Distributed Training with TensorFlow Notebook/TensorFlow_Distributed_MNIST.ipynb' from the folder on your computer where you downloaded this GitHub repository. Then click the blue **Upload** button that appears in the notebook next to the file name.
+**Do the same with mnist.py and utils.py**
 5. You are now ready to begin the notebook:  click the notebook's file name to open it, then follow the directions in the notebook.
 
 <p><strong>NOTE:  training the model for this example typically takes about 8 minutes.</strong></p>
@@ -143,7 +144,7 @@ Follow these steps:
 1. In your notebook instance, click the **New** button on the right and select **Folder**.  
 2. Click the checkbox next to your new folder, click the **Rename** button above in the menu bar, and give the folder a name such as 'image-classification'.
 3. Click the folder to enter it.
-4. To upload the notebook, click the **Upload** button on the right, then in the file selection popup, select the file 'Image-classification-transfer-learning.ipynb' from the folder on your computer where you downloaded this GitHub repository. Then click the blue **Upload** button that appears in the notebook next to the file name.
+4. To upload the notebook, click the **Upload** button on the right, then in the file selection popup, select the file 'Modules/4 - Image Classification Notebook/Image-classification-transfer-learning.ipynbI' from the folder on your computer where you downloaded this GitHub repository. Then click the blue **Upload** button that appears in the notebook next to the file name.
 5. You are now ready to begin the notebook:  click the notebook's file name to open it, then follow the directions in the notebook.
 
 <p><strong>NOTE:  training the model for this example typically takes about 10 minutes.</strong> However, keep in mind that this is relatively short because transfer learning is used rather than training from scratch, which could take many hours.</p>
