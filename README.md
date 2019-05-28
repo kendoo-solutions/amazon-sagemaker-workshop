@@ -145,7 +145,8 @@ Follow these steps:
 2. Click the checkbox next to your new folder, click the **Rename** button above in the menu bar, and give the folder a name such as 'image-classification'.
 3. Click the folder to enter it.
 4. To upload the notebook, click the **Upload** button on the right, then in the file selection popup, select the file 'Modules/4 - Image Classification Notebook/Image-classification-transfer-learning.ipynbI' from the folder on your computer where you downloaded this GitHub repository. Then click the blue **Upload** button that appears in the notebook next to the file name.
-5. You are now ready to begin the notebook:  click the notebook's file name to open it, then follow the directions in the notebook.
+5. In the bucket = '<<bucket_name>>' code line, paste the name of the S3 bucket you created in Module 1 to replace <your_s3_bucket_name_here>. The code line should now read similar to bucket = 'smworkshop-john-smith'. Do NOT paste the entire path (s3://.......), just the bucket name.
+6. You are now ready to begin the notebook:  click the notebook's file name to open it, then follow the directions in the notebook.
 
 <p><strong>NOTE:  training the model for this example typically takes about 10 minutes.</strong> However, keep in mind that this is relatively short because transfer learning is used rather than training from scratch, which could take many hours.</p>
 
